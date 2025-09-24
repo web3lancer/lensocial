@@ -1,9 +1,9 @@
 'use client';
-import { useState, useEffect } from 'react';
+'use client';
+import { useState } from 'react';
 import type { Post } from '@/lib/types';
 import { CreatePost } from './create-post';
 import { PostCard } from './post-card';
-import { mockPosts } from '@/lib/data';
 import { AnimatePresence, motion } from 'framer-motion';
 
 interface FeedViewProps {
@@ -12,20 +12,6 @@ interface FeedViewProps {
 
 export function FeedView({ initialPosts }: FeedViewProps) {
   const [posts, setPosts] = useState<Post[]>(initialPosts);
-
-  useEffect(() => {
-    // Simulate real-time updates
-    const interval = setInterval(() => {
-      const newPost = {
-        ...mockPosts[Math.floor(Math.random() * mockPosts.length)],
-        id: new Date().getTime().toString(),
-        timestamp: new Date(),
-      };
-      setPosts((prevPosts) => [newPost, ...prevPosts]);
-    }, 20000); // Add a new post every 20 seconds
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
