@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "user-avatar",
+      "description": "Main user's avatar",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBmYWNlfGVufDB8fHx8MTc1ODY5NTM3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person face"
+    },
+    {
+      "id": "post-author-1",
+      "description": "Avatar for post author 1",
+      "imageUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMGZhY2V8ZW58MHx8fHwxNzU4NjgzMjI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman face"
+    },
+    {
+      "id": "post-author-2",
+      "description": "Avatar for post author 2",
+      "imageUrl": "https://images.unsplash.com/photo-1583692331507-fc0bd348695d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBmYWNlfGVufDB8fHx8MTc1ODY3NDMzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man face"
+    },
+    {
+      "id": "post-author-3",
+      "description": "Avatar for post author 3",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc1ODY0MDczOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "post-image-1",
+      "description": "Image for the first post",
+      "imageUrl": "https://images.unsplash.com/photo-1547235001-d703406d3f17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZXNlcnQlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU4Njc1MzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desert landscape"
+    },
+    {
+      "id": "post-image-2",
+      "description": "Image for the second post",
+      "imageUrl": "https://images.unsplash.com/photo-1605106702842-01a887a31122?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMGRlc2lnbnxlbnwwfHx8fDE3NTg2OTI2NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract design"
+    },
+    {
+      "id": "portfolio-1",
+      "description": "First portfolio image",
+      "imageUrl": "https://images.unsplash.com/photo-1657317938737-2894f7a346f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXJjaGl0ZWN0dXJlJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzU4Njg5MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "architecture building"
+    },
+    {
+      "id": "portfolio-2",
+      "description": "Second portfolio image",
+      "imageUrl": "https://images.unsplash.com/photo-1617121346253-43ef95179ac9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaXR5JTIwc3RyZWV0fGVufDB8fHx8MTc1ODY3NzkxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city street"
+    },
+    {
+      "id": "portfolio-3",
+      "description": "Third portfolio image",
+      "imageUrl": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9kdWN0JTIwZGVzaWdufGVufDB8fHx8MTc1ODc0NzIyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "product design"
+    },
+    {
+      "id": "portfolio-4",
+      "description": "Fourth portfolio image",
+      "imageUrl": "https://images.unsplash.com/photo-1657500916344-d33346904ed5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxuYXR1cmUlMjBhYnN0cmFjdHxlbnwwfHx8fDE3NTg3NDUzMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nature abstract"
+    },
+    {
+      "id": "portfolio-5",
+      "description": "Fifth portfolio image",
+      "imageUrl": "https://images.unsplash.com/photo-1529619768328-e37af76c6fe5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaXR5JTIwbmlnaHR8ZW58MHx8fHwxNzU4Njg1Mzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city night"
+    },
+    {
+      "id": "portfolio-6",
+      "description": "Sixth portfolio image",
+      "imageUrl": "https://images.unsplash.com/photo-1605774337664-7a846e9cdf17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtaW5pbWFsaXN0JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzU4NzIyNzA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist interior"
+    }
+  ]
 }
