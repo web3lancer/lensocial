@@ -72,7 +72,7 @@ async function SuggestedConnections() {
                     </div>
                 </CardHeader>
                 <CardContent className="text-center">
-                    <p className="mb-4 text-sm text-muted-foreground italic">"{s.reason}"</p>
+                    <p className="mb-4 text-sm text-muted-foreground italic">&quot;{s.reason}&quot;</p>
                     <Button className="w-full">
                     <Plus className="mr-2 h-4 w-4" /> Connect
                     </Button>
@@ -99,7 +99,7 @@ async function SuggestedConnections() {
                     </div>
                 </CardHeader>
                 <CardContent className="text-center">
-                    <p className="mb-4 text-sm text-muted-foreground italic">"{s.reason}"</p>
+                    <p className="mb-4 text-sm text-muted-foreground italic">&quot;{s.reason}&quot;</p>
                     <Button className="w-full">
                     <Plus className="mr-2 h-4 w-4" /> Join
                     </Button>

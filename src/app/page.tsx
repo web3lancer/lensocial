@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import { getPersonalizedFeed } from '@/lib/actions';
+import { CreatePost } from '@/components/feed/create-post';
 import { FeedView } from '@/components/feed/feed-view';
 import { Skeleton } from '@/components/ui/skeleton';
 
@@ -22,8 +23,11 @@ async function FeedData() {
 
 export default function HomePage() {
   return (
-    <Suspense fallback={<FeedSkeleton />}>
-      <FeedData />
-    </Suspense>
+    <div className="mx-auto max-w-2xl space-y-6">
+      <CreatePost />
+      <Suspense fallback={<FeedSkeleton />}>
+        <FeedData />
+      </Suspense>
+    </div>
   );
 }
