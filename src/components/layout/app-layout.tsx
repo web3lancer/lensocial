@@ -1,6 +1,6 @@
 import type { PropsWithChildren } from 'react';
 import Link from 'next/link';
-import { Home, Users, User } from 'lucide-react';
+import { Home, Users, User, Sparkles, Globe } from 'lucide-react';
 
 import {
   SidebarProvider,
@@ -60,6 +60,14 @@ export function AppLayout({ children }: PropsWithChildren) {
                 <Link href="/connections">
                   <Users />
                   <span>Connections</span>
+                </Link>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton asChild tooltip="Web3">
+                <Link href="/web3">
+                  <Sparkles />
+                  <span>Web3</span>
                 </Link>
               </SidebarMenuButton>
             </SidebarMenuItem>
