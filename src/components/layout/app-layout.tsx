@@ -1,6 +1,6 @@
 import type { PropsWithChildren } from 'react';
 import Link from 'next/link';
-import { Home, Users, User } from 'lucide-react';
+import { Home, Users, User, Sparkles, BarChart3, Search } from 'lucide-react';
 
 import {
   SidebarProvider,
@@ -56,10 +56,34 @@ export function AppLayout({ children }: PropsWithChildren) {
               </SidebarMenuButton>
             </SidebarMenuItem>
             <SidebarMenuItem>
+              <SidebarMenuButton asChild tooltip="Search">
+                <Link href="/search">
+                  <Search />
+                  <span>Search</span>
+                </Link>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
               <SidebarMenuButton asChild tooltip="Connections">
                 <Link href="/connections">
                   <Users />
                   <span>Connections</span>
+                </Link>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton asChild tooltip="Web3">
+                <Link href="/web3">
+                  <Sparkles />
+                  <span>Web3</span>
+                </Link>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton asChild tooltip="Analytics">
+                <Link href="/analytics">
+                  <BarChart3 />
+                  <span>Analytics</span>
                 </Link>
               </SidebarMenuButton>
             </SidebarMenuItem>
