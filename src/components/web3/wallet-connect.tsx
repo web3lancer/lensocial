@@ -53,7 +53,7 @@ export function WalletConnect({ onConnect, onDisconnect }: WalletConnectProps) {
         sx={{
           background: 'linear-gradient(145deg, #2A2A30 0%, #25252A 100%)',
           border: '2px solid',
-          borderColor: '#10B981',
+          borderColor: 'success.main',
           position: 'relative',
           overflow: 'hidden',
           '&::before': {
@@ -63,13 +63,13 @@ export function WalletConnect({ onConnect, onDisconnect }: WalletConnectProps) {
             left: 0,
             right: 0,
             height: '4px',
-            background: 'linear-gradient(90deg, #10B981 0%, #059669 100%)',
+            background: 'linear-gradient(90deg, success.main 0%, success.dark 100%)',
           },
         }}
       >
         <MuiCardContent sx={{ p: 3 }}>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
-            <CheckCircle sx={{ color: '#10B981', fontSize: 32 }} />
+            <CheckCircle sx={{ color: 'success.main', fontSize: 32 }} />
             <Box>
               <Typography variant="h6" sx={{ fontWeight: 700, color: 'text.primary' }}>
                 Wallet Connected
@@ -79,8 +79,8 @@ export function WalletConnect({ onConnect, onDisconnect }: WalletConnectProps) {
                 size="small"
                 sx={{
                   mt: 0.5,
-                  background: 'rgba(16, 185, 129, 0.15)',
-                  color: '#10B981',
+                  background: (theme) => `rgba(${parseInt(theme.palette.success.main.slice(1, 3), 16)}, ${parseInt(theme.palette.success.main.slice(3, 5), 16)}, ${parseInt(theme.palette.success.main.slice(5, 7), 16)}, 0.15)`,
+                  color: 'success.main',
                   fontWeight: 600,
                   fontFamily: 'monospace',
                 }}

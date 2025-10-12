@@ -208,7 +208,7 @@ export default function Web3Page() {
                   {stat.value}
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-                  <Box component="span" sx={{ color: '#10B981', fontWeight: 700 }}>
+                  <Box component="span" sx={{ color: 'success.main', fontWeight: 700 }}>
                     {stat.change.split(' ')[0]}
                   </Box>
                   {' ' + stat.change.split(' ').slice(1).join(' ')}

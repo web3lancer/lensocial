@@ -18,6 +18,12 @@ export const theme = createTheme({
       dark: '#4338CA',
       contrastText: '#FFFFFF',
     },
+    success: {
+      main: '#10B981', // Emerald green
+      light: '#34D399',
+      dark: '#059669',
+      contrastText: '#FFFFFF',
+    },
     background: {
       default: '#1A1A1D', // Muted ash dark
       paper: '#25252A', // Slightly lighter ash
